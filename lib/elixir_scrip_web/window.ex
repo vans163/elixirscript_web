@@ -20,4 +20,11 @@ defmodule ElixirScript.Web.JSON do
   defexternal removeEventListener(type, listener)
 
   defexternal removeEventListener(type, listener, options)
+
+  defexternal fetch(url)
+  defexternal fetch(url, params)
+
+  defexternal alert(text)
+  
+  defexternal confirm(text)
 end

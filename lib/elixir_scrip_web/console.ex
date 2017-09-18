@@ -12,6 +12,9 @@ defmodule ElixirScript.Web.Console do
   defexternal info(obj)
 
   defexternal log(obj)
+  defexternal log(obj, obj1)
+  defexternal log(obj, obj1, obj2)
+  defexternal log(obj, obj1, obj2, obj3)
 
   defexternal warn(obj)
 
